@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+#login-body{
+    background-image: url(../bg-01.jpg);
+    width: 100%;
+    height: 113vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#form-body{
+    background-color: white;
+    width: 530px;
+    height: 556px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+#detail{
+    width: 397px;
+}
+
+#detail h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 47px;
+    font-weight: bolder;
+    font-size: 2.8rem;
+}
+
+#username-detail{
+    margin-top: 32px;
+}
+
+#username-detail input{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    /* color: #333333; */
+    line-height: 1.2;
+    display: block;
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    /* padding: 0 0px 0 30px; */
+    border: 0;
+    border-bottom: 3px solid #cecdcd;
+    outline: 0;
+}
+
+#username-detail label{
+    font-size: 1.2rem;
+}
+
+#password-detail{
+    margin-top: 33px;
+}
+
+#password-detail label{
+    font-size: 1.2rem;
+}
+
+#password-detail input{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    display: block;
+    width: 100%;
+    height: 50px;
+    /* padding: 0 0px 0 30px; */
+    border: 0;
+    border-bottom: 3px solid #cecdcd;
+    outline: 0;
+}
+
+#forget-password-box{
+    margin-top: 5px;
+    margin-left: 283px;
+}
+
+#forget-password-box a{
+    text-decoration: none;
+    color: #958f8f;
+}
+
+#login-btn{
+    margin-top: 22px;
+}
+
+#login-btn button{
+    
+    width: 100%;
+    height: 48px;
+    border-radius: 27px;
+    font-weight: bolder;
+    border: none;
+    background-color: #f47af4;
+}
+
+#login-btn button:hover{
+    cursor: pointer;
+    background-color: #d476d4;
+    
+    
+}
+
+#signup-box{
+    margin-top: 29px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-box{
+    display: block;
+    width: 100%;
+    margin-left: 82px;
+    margin-top: 12px;
+}
+
+#fb-logo{
+    width: 74px;
+}
+
+#twitter-logo{
+    width: 74px;
+}
+
+#gmail-logo{
+    width: 59px;
+    margin-bottom: 7px;
+}
